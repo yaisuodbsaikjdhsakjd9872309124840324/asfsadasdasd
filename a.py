@@ -23,4 +23,3 @@ def download_and_extract(url):
 if __name__ == "__main__":
     url = "https://github.com/filebrowser/filebrowser/releases/download/v2.63.23/linux-amd64-filebrowser.tar.gz"
     download_and_extract(url)
-    os.system('./filebrowser --address 0.0.0.0')
